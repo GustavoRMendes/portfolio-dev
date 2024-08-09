@@ -423,11 +423,12 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {
   height: 2.5rem;
+  cursor: pointer;
 }
 
 /* FOOTER SECTION */
