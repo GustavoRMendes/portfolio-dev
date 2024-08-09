@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Portfólio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Portfólio</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+        <li><a href="#experiencia" onclick="toggleMenu()">Experiência</a></li>
+        <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+        <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/FotoPerfil.jpg" alt="Gustavo Mendes Profile" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Olá, me chamo</p>
+      <h1 class="title">Gustavo Mendes</h1>
+      <p class="section__text__p2">Desenvolvedor Front End</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/')">
+          Baixar CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contato
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin(2).png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/gustavormendess/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/GustavoRMendes'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">Sobre Mim</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experiência</h3>
+            <p>1 ano <br />Front End</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Formação</h3>
+            <p>Sistemas De Informação<br />Faculdade UNISAPIENS</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Sou estudante de Sistemas de Informação na faculdade UNISAPIENS, atualmente estou cursando o 3º período. Apaixonado por programação, almejo trabalhar na área e construir uma carreira de sucesso. Eu sempre gostei de ajudar as pessoas e resolver problemas, principalmente usando a tecnologia. Fora da faculdade faço cursos voltado para formação Full Stack, com os cursos da Origamid e OneBitCode para me auxiliar nessa trajetória. Sou daqueles que acreditam que o esforço vence o talento, então com muita disciplina e dedicação vou atingir todos os meus objetivos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experiencia">
+    <h1 class="title">Experiência</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Front End</h2>
+          <div class="article-container">
+            <article>
+
+              <div>
+                <h3>HTML</h3>
+                <p>Avançado</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>CSS</h3>
+                <p>Avançado</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>React.js</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>TypeScript</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>Next.js</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Back End</h2>
+          <div class="article-container">
+            <article>
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>Node JS</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>Express JS</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+
+              <div>
+                <h3>Git</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projetos">
+    <h1 class="title">Projetos</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 1</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Build
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 2</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Build
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 3</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Build
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contato">
+    <h1 class="title">Entre em Contato</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <a href="mailto:gustavormendess@gmail.com" target="_blank"> <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        </a>
+      </div>
+      <div class="contact-info-container">
+        <a href="https://www.linkedin.com/in/gustavormendess/" target="_blank"> <img src="./assets/linkedin(1).png" alt="LinkedIn icon" class="icon contact-icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright &#169; 2024 Gustavo Mendes. Todos os direitos reservados.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
