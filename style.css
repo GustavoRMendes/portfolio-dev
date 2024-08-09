@@ -202,11 +202,14 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: black;
+  font-family: "Poppins";
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  color: rgb(144, 144, 144);
 }
 
 #socials-container {
