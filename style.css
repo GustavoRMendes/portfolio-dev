@@ -32,6 +32,11 @@ p {
 .front-end {
   color: rgb(25, 25, 25);
 }
+
+.nav-links a {
+  color: rgb(66, 66, 66);
+  font-family: "Roboto";
+}
 /* TRANSITION */
 
 a,
