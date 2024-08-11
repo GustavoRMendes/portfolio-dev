@@ -1,4 +1,11 @@
-@import url("./global.css");
+/* Global */
+@import url("./styles/global.css");
+
+/* Transition */
+@import url("./styles/transition.css");
+
+/* DESKTOP NAV */
+@import url("./styles/desktop-nav.css");
 
 .front-end {
   color: rgb(25, 25, 25);
@@ -7,52 +14,6 @@
 .nav-links a {
   color: rgb(66, 66, 66);
   font-family: "Roboto";
-}
-/* TRANSITION */
-
-a,
-.btn {
-  transition: all 300ms ease;
-}
-
-/* DESKTOP NAV */
-
-nav,
-.nav-links {
-  display: flex;
-}
-
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
-.nav-links {
-  gap: 2rem;
-  list-style: none;
-  font-size: 1.5rem;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  text-decoration-color: white;
-}
-
-a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
-}
-
-.logo {
-  font-size: 2rem;
-}
-
-.logo:hover {
-  cursor: default;
 }
 
 /* HAMBURGER MENU */
