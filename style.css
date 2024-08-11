@@ -1,33 +1,4 @@
-/* GERAL */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins";
-}
-h1,
-h2,
-a,
-button {
-  font-family: "Poppins", sans-serif;
-}
-h3,
-h4,
-p {
-  font-family: "Roboto", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-p {
-  color: rgb(85, 85, 85);
-}
+@import url("./global.css");
 
 .front-end {
   color: rgb(25, 25, 25);
