@@ -36,8 +36,3 @@
 
 /* FOOTER SECTION */
 @import url("./styles/footer.css");
-
-.nav-links a {
-  color: rgb(66, 66, 66);
-  font-family: "Roboto";
-}
